@@ -1,0 +1,269 @@
+@import url(https://fonts.googleapis.com/css?family=Racing+Sans+One);
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #f0f0f0;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #f0f0f0;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #f0f0f0;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #f0f0f0;
+}
+input::placeholder {
+  color: red;
+}
+@font-face {
+    font-family: bebas;
+    src: url(../font/bebas.TFF);
+}
+@font-face {
+    font-family: rmbi;
+    src: url(../font/rmbi.tff);
+}
+@font-face {
+     font-family: rmb;
+    src: url(../font/rmb.tff);
+}
+input,.smodal, .login-screen-content,.transrecords, .md .item-floating-label, .cwhite, .input-clear-button, #inputfieldlabels,#demo-username-1,#demo-password-1{
+	color: #fff !important;
+}
+#demo-username-1,#demo-password-1{
+	border-bottom-style: solid !important;
+	border:2px !important;
+	border-bottom-color: #fff !important;
+}
+.login-screen-title {
+	font-family: 'Racing Sans One', cursive;
+}
+.login-screen-content, .page, .page-current .page-content {
+	background: url("../img/bg2.png") center center !important;
+	font-family: "Helvetica", "arial";
+	color: #fff;
+
+}
+.item-input .item-title {
+
+}
+.dialog-input-field input, .item-input input {
+	font-size:  16px !important;
+	color: #00CCCC !important;
+	background-color: #101111;
+	padding: 12px 20px !important;
+	font-weight: bold;
+	margin-top: 3px;
+
+}
+.topnavbar, .md .navbar, .md .toolbar{
+	background-color:#00CCCC; 
+}
+.page-content, .tab{
+background: #212121;
+}
+.fb-login {
+	background: #415DAE;
+	color: #fff !important;
+	margin-top: 10px;
+}
+.signin, .regBtn, .changepassbtn, .planbtn, .ProceedBtn, .payBtn {
+	background: #00CCCC;
+	color: #fff !important;
+	text-align: center;
+}
+span.checkoutbtn {
+	background: #16A05D;
+	color: #fff !important;
+	padding: 1px 12px !important;
+	font-size: 18px !important;
+	display: block;
+	float: right;
+	border-radius: 5px;
+}
+.planbtn {
+	margin: 20px;
+}
+.menubtn {
+	margin-left: 15px !important;
+}
+.dashboard a {
+	text-align: center;
+	display: block;
+	padding: 15px;
+}
+
+.dashboard a i {
+	/*font-size: 5em;*/
+}
+.dashboard a small {
+	color: #555;
+}
+.current_wallet {
+	background: #333333;
+	color: #fff !important;
+	padding: 15px 0;
+	text-align: center;
+}
+.current_wallet h3 {
+	font-size: 2.5em;
+	margin: 0;
+	margin-top: 70px !important;
+}
+.wallet_tab {
+	margin-top: 180px;
+	background-color: #00CCCC !important;
+}
+.wallettabs .tab  {
+	padding-top:  12px !important;
+}
+.payment{
+	border-left: 3px;
+	border-color: #bb0000;
+	border-left-style:solid;
+	background-color: #333333 !important;
+	color: #fff;
+}
+.received{
+	border-left: 3px;
+	border-color: green;
+	border-left-style:solid;
+	background-color: #333333 !important;
+	color: #fff;
+}
+.pay{
+	color: #ff1919;
+}
+.receive{
+	color: #18db1b;
+}
+
+.receive:hover, .receive:active{
+   background-color: #fff;
+ }
+
+.price {
+	float: right !important;
+}
+	
+.amount{
+	width: 100%;
+	font-size: 4em;
+	/*color: #ffffff;*/
+	background-color: #333333;
+	border-bottom-style: solid;
+	border:5px;
+	border-color:  #061351;
+	text-align: center;
+	color: #fff;
+
+
+}
+.Camount{
+	background-color: #333333;
+	color:#fff;
+}
+.cardoptions{
+	background-color: #333333;
+	border-style: solid;
+	border:5px;
+	border-color: blue;
+}
+.cardoptions:hover{
+	background-color: blue;
+
+}
+.cardoptions div:focus {
+    background-color:blue;
+}
+.payout{
+	margin-top:10%;
+}
+.transactionsTitle{
+	color:#fff !important;
+}
+.lw{
+	color: #fff !important;
+}
+#qrcode {
+  width:160px;
+  height:160px;
+  margin-top:15px;
+}
+.loglink {
+	margin: 45px 15px 15px 15px;
+
+}
+
+.loglink a {
+	color: #fff;
+}
+.dashboard .list li {
+	background: url("../img/fade.png");
+	margin-bottom: 10px;
+}
+.wbtn {
+	color: #00CCCC !important; 
+	border: 0;
+	background:  none;
+	margin-left: 10px;
+	font-weight: bold;
+}
+.remarks {
+	padding: 10px;
+	color: orange;
+	display: none;
+}
+
+.spinner {
+	display: none;
+		-webkit-animation: rotation 2s infinite linear;
+}
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+
+/*Checkout*/
+.selectpayment {
+	margin-left:  10px;
+	margin-right: 10px;
+}
+.selectpayment a {
+	text-align:  center;
+	color: #fff;
+	background: #404141 !important;
+	display: block;
+	border-radius: 3px;
+}
+.selectpayment a.selectedpayment {
+	background: #16A05D !important;
+
+}
+.plan_price {
+	color: #169D5B !important;
+	font-weight: bold;
+	font-size: 20px !important;;
+}
+#cardform select {
+	text-align: center;
+	color: #00CCCC !important;
+	font-weight: bold;
+	background: #101111;
+}
+
+.checkoutpage .tabs-animated-wrap {
+	height: 0 !important;
+	min-height: 350px !important;
+	background: none !important;
+}
+.md .checkoutpage .block {
+	margin:  10px 0 !important;
+}
+.ProceedBtn, .payBtn {
+	margin: 10px;
+}
